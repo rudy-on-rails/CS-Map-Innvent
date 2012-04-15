@@ -2738,3 +2738,1003 @@ Level flags = 0
 Total triangle count: 2403
 Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
 7 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (46023 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 337 texinfos to 233
+Reduced 17 texdatas to 17 (364 bytes to 364)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 201 portalclusters
+ 428 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 85 visible clusters (0.00%)
+Total clusters visible: 11208
+Average clusters visible: 55
+Building PAS...
+Average clusters audible: 155
+visdatasize:10352  compressed from 12864
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+800 faces
+54828 square feet [7895358.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+800 patches before subdivision
+zero area child patch
+13042 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1200621, max 370
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0106 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                116/8192         1392/98304    ( 1.4%) 
+brushsides             708/65536        5664/524288   ( 1.1%) 
+planes                 724/65536       14480/1310720  ( 1.1%) 
+vertexes              1594/65536       19128/786432   ( 2.4%) 
+nodes                  485/65536       15520/2097152  ( 0.7%) 
+texinfos               233/12288       16776/884736   ( 1.9%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  800/65536       44800/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              368/65536       20608/3670016  ( 0.6%) 
+leaves                 499/65536       15968/2097152  ( 0.8%) 
+leaffaces              913/65536        1826/131072   ( 1.4%) 
+leafbrushes            288/65536         576/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5466/512000      21864/2048000  ( 1.1%) 
+edges                 3182/256000      12728/1024000  ( 1.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            121/32768        1210/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1836/65536        3672/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      355260/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10352/16777216 ( 0.1%) 
+entdata               [variable]       94223/393216   (24.0%) 
+LDR ambient table      499/65536        1996/262144   ( 0.8%) 
+HDR ambient table      499/65536        1996/262144   ( 0.8%) 
+LDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+HDR leaf ambient       499/65536       13972/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       46023/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2394
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+7 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (46571 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 343 texinfos to 236
+Reduced 17 texdatas to 17 (364 bytes to 364)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 201 portalclusters
+ 428 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 85 visible clusters (0.00%)
+Total clusters visible: 11208
+Average clusters visible: 55
+Building PAS...
+Average clusters audible: 155
+visdatasize:10352  compressed from 12864
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+806 faces
+54917 square feet [7908172.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+806 patches before subdivision
+zero area child patch
+13056 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1201657, max 370
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0096 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                117/8192         1404/98304    ( 1.4%) 
+brushsides             714/65536        5712/524288   ( 1.1%) 
+planes                 728/65536       14560/1310720  ( 1.1%) 
+vertexes              1602/65536       19224/786432   ( 2.4%) 
+nodes                  491/65536       15712/2097152  ( 0.7%) 
+texinfos               236/12288       16992/884736   ( 1.9%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  806/65536       45136/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              374/65536       20944/3670016  ( 0.6%) 
+leaves                 506/65536       16192/2097152  ( 0.8%) 
+leaffaces              919/65536        1838/131072   ( 1.4%) 
+leafbrushes            289/65536         578/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5514/512000      22056/2048000  ( 1.1%) 
+edges                 3206/256000      12824/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            121/32768        1210/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1836/65536        3672/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      357396/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10352/16777216 ( 0.1%) 
+entdata               [variable]       94651/393216   (24.1%) 
+LDR ambient table      506/65536        2024/262144   ( 0.8%) 
+HDR ambient table      506/65536        2024/262144   ( 0.8%) 
+LDR leaf ambient       285/65536        7980/1835008  ( 0.4%) 
+HDR leaf ambient       506/65536       14168/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       46571/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2406
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+7 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (46571 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 343 texinfos to 236
+Reduced 17 texdatas to 17 (364 bytes to 364)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 201 portalclusters
+ 428 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 85 visible clusters (0.00%)
+Total clusters visible: 11208
+Average clusters visible: 55
+Building PAS...
+Average clusters audible: 155
+visdatasize:10352  compressed from 12864
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+806 faces
+54917 square feet [7908172.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+806 patches before subdivision
+zero area child patch
+13056 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1201657, max 370
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0090 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                117/8192         1404/98304    ( 1.4%) 
+brushsides             714/65536        5712/524288   ( 1.1%) 
+planes                 728/65536       14560/1310720  ( 1.1%) 
+vertexes              1602/65536       19224/786432   ( 2.4%) 
+nodes                  491/65536       15712/2097152  ( 0.7%) 
+texinfos               236/12288       16992/884736   ( 1.9%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  806/65536       45136/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              374/65536       20944/3670016  ( 0.6%) 
+leaves                 506/65536       16192/2097152  ( 0.8%) 
+leaffaces              919/65536        1838/131072   ( 1.4%) 
+leafbrushes            289/65536         578/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5514/512000      22056/2048000  ( 1.1%) 
+edges                 3206/256000      12824/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            121/32768        1210/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1836/65536        3672/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      357396/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10352/16777216 ( 0.1%) 
+entdata               [variable]       94652/393216   (24.1%) 
+LDR ambient table      506/65536        2024/262144   ( 0.8%) 
+HDR ambient table      506/65536        2024/262144   ( 0.8%) 
+LDR leaf ambient       285/65536        7980/1835008  ( 0.4%) 
+HDR leaf ambient       506/65536       14168/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       46571/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2406
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+6 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (46571 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 343 texinfos to 236
+Reduced 17 texdatas to 17 (364 bytes to 364)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 201 portalclusters
+ 428 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 82 visible clusters (0.00%)
+Total clusters visible: 11205
+Average clusters visible: 55
+Building PAS...
+Average clusters audible: 155
+visdatasize:10352  compressed from 12864
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+806 faces
+54917 square feet [7908172.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+806 patches before subdivision
+zero area child patch
+13056 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1201657, max 370
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                117/8192         1404/98304    ( 1.4%) 
+brushsides             714/65536        5712/524288   ( 1.1%) 
+planes                 728/65536       14560/1310720  ( 1.1%) 
+vertexes              1602/65536       19224/786432   ( 2.4%) 
+nodes                  491/65536       15712/2097152  ( 0.7%) 
+texinfos               236/12288       16992/884736   ( 1.9%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  806/65536       45136/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              374/65536       20944/3670016  ( 0.6%) 
+leaves                 506/65536       16192/2097152  ( 0.8%) 
+leaffaces              919/65536        1838/131072   ( 1.4%) 
+leafbrushes            289/65536         578/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5514/512000      22056/2048000  ( 1.1%) 
+edges                 3206/256000      12824/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            121/32768        1210/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1836/65536        3672/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      357396/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10352/16777216 ( 0.1%) 
+entdata               [variable]       93725/393216   (23.8%) 
+LDR ambient table      506/65536        2024/262144   ( 0.8%) 
+HDR ambient table      506/65536        2024/262144   ( 0.8%) 
+LDR leaf ambient       285/65536        7980/1835008  ( 0.4%) 
+HDR leaf ambient       506/65536       14168/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       46571/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2406
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+7 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (48543 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 354 texinfos to 246
+Reduced 19 texdatas to 19 (405 bytes to 405)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 226 portalclusters
+ 488 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 140 visible clusters (0.00%)
+Total clusters visible: 13274
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 174
+visdatasize:12797  compressed from 14464
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+856 faces
+55022 square feet [7923268.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+856 patches before subdivision
+zero area child patch
+13122 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1209631, max 370
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                122/8192         1464/98304    ( 1.5%) 
+brushsides             744/65536        5952/524288   ( 1.1%) 
+planes                 778/65536       15560/1310720  ( 1.2%) 
+vertexes              1682/65536       20184/786432   ( 2.6%) 
+nodes                  523/65536       16736/2097152  ( 0.8%) 
+texinfos               246/12288       17712/884736   ( 2.0%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  856/65536       47936/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              400/65536       22400/3670016  ( 0.6%) 
+leaves                 538/65536       17216/2097152  ( 0.8%) 
+leaffaces             1027/65536        2054/131072   ( 1.6%) 
+leafbrushes            297/65536         594/131072   ( 0.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5867/512000      23468/2048000  ( 1.1%) 
+edges                 3403/256000      13612/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            130/32768        1300/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1980/65536        3960/131072   ( 3.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      362872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       12797/16777216 ( 0.1%) 
+entdata               [variable]       94873/393216   (24.1%) 
+LDR ambient table      538/65536        2152/262144   ( 0.8%) 
+HDR ambient table      538/65536        2152/262144   ( 0.8%) 
+LDR leaf ambient       310/65536        8680/1835008  ( 0.5%) 
+HDR leaf ambient       538/65536       15064/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       48543/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2555
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+7 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (48543 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 354 texinfos to 246
+Reduced 19 texdatas to 19 (405 bytes to 405)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 227 portalclusters
+ 483 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 94 visible clusters (0.00%)
+Total clusters visible: 13357
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 174
+visdatasize:12799  compressed from 14528
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+862 faces
+54942 square feet [7911707.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+862 patches before subdivision
+zero area child patch
+13152 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1217216, max 352
+transfer lists:   9.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0101 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes                122/8192         1464/98304    ( 1.5%) 
+brushsides             744/65536        5952/524288   ( 1.1%) 
+planes                 784/65536       15680/1310720  ( 1.2%) 
+vertexes              1699/65536       20388/786432   ( 2.6%) 
+nodes                  518/65536       16576/2097152  ( 0.8%) 
+texinfos               246/12288       17712/884736   ( 2.0%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  862/65536       48272/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              400/65536       22400/3670016  ( 0.6%) 
+leaves                 533/65536       17056/2097152  ( 0.8%) 
+leaffaces             1035/65536        2070/131072   ( 1.6%) 
+leafbrushes            283/65536         566/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5889/512000      23556/2048000  ( 1.2%) 
+edges                 3414/256000      13656/1024000  ( 1.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1893/65536        3786/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      364472/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       12799/16777216 ( 0.1%) 
+entdata               [variable]       94873/393216   (24.1%) 
+LDR ambient table      533/65536        2132/262144   ( 0.8%) 
+HDR ambient table      533/65536        2132/262144   ( 0.8%) 
+LDR leaf ambient       311/65536        8708/1835008  ( 0.5%) 
+HDR leaf ambient       533/65536       14924/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       48543/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2565
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+7 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (49639 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 365 texinfos to 252
+Reduced 19 texdatas to 19 (405 bytes to 405)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 227 portalclusters
+ 483 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 94 visible clusters (0.00%)
+Total clusters visible: 13357
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 174
+visdatasize:12799  compressed from 14528
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+874 faces
+55120 square feet [7937335.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+874 patches before subdivision
+zero area child patch
+13180 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1219574, max 352
+transfer lists:   9.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0099 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                124/8192         1488/98304    ( 1.5%) 
+brushsides             756/65536        6048/524288   ( 1.2%) 
+planes                 800/65536       16000/1310720  ( 1.2%) 
+vertexes              1715/65536       20580/786432   ( 2.6%) 
+nodes                  530/65536       16960/2097152  ( 0.8%) 
+texinfos               252/12288       18144/884736   ( 2.1%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  874/65536       48944/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+leaves                 547/65536       17504/2097152  ( 0.8%) 
+leaffaces             1047/65536        2094/131072   ( 1.6%) 
+leafbrushes            285/65536         570/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5985/512000      23940/2048000  ( 1.2%) 
+edges                 3462/256000      13848/1024000  ( 1.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1893/65536        3786/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      369064/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       12799/16777216 ( 0.1%) 
+entdata               [variable]       95727/393216   (24.3%) 
+LDR ambient table      547/65536        2188/262144   ( 0.8%) 
+HDR ambient table      547/65536        2188/262144   ( 0.8%) 
+LDR leaf ambient       323/65536        9044/1835008  ( 0.5%) 
+HDR leaf ambient       547/65536       15316/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       49639/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2589
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+8 seconds elapsed
+
+
+
+materialPath: d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\materials
+Loading D:\User Profiles\Rudy\CS Maps\de_innvent.vmf
+Could not locate 'GameData' key in d:\mysteam\steamapps\rudywseidinger\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\User Profiles\Rudy\CS Maps\de_innvent.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (49639 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 365 texinfos to 252
+Reduced 19 texdatas to 19 (405 bytes to 405)
+Writing D:\User Profiles\Rudy\CS Maps\de_innvent.bsp
+1 second elapsed
+
+
+
+2 threads
+reading d:\user profiles\rudy\cs maps\de_innvent.bsp
+reading d:\user profiles\rudy\cs maps\de_innvent.prt
+ 227 portalclusters
+ 483 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 94 visible clusters (0.00%)
+Total clusters visible: 13357
+Average clusters visible: 58
+Building PAS...
+Average clusters audible: 174
+visdatasize:12799  compressed from 14528
+writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[1 texlights parsed from 'lights.rad']
+
+Loading d:\user profiles\rudy\cs maps\de_innvent.bsp
+874 faces
+55120 square feet [7937335.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+874 patches before subdivision
+zero area child patch
+13180 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1219574, max 352
+transfer lists:   9.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0091 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/1024          768/49152    ( 1.6%) 
+brushes                124/8192         1488/98304    ( 1.5%) 
+brushsides             756/65536        6048/524288   ( 1.2%) 
+planes                 800/65536       16000/1310720  ( 1.2%) 
+vertexes              1715/65536       20580/786432   ( 2.6%) 
+nodes                  530/65536       16960/2097152  ( 0.8%) 
+texinfos               252/12288       18144/884736   ( 2.1%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  874/65536       48944/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              412/65536       23072/3670016  ( 0.6%) 
+leaves                 547/65536       17504/2097152  ( 0.8%) 
+leaffaces             1047/65536        2094/131072   ( 1.6%) 
+leafbrushes            285/65536         570/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5985/512000      23940/2048000  ( 1.2%) 
+edges                 3462/256000      13848/1024000  ( 1.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            124/32768        1240/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1893/65536        3786/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      369064/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       12799/16777216 ( 0.1%) 
+entdata               [variable]       95729/393216   (24.3%) 
+LDR ambient table      547/65536        2188/262144   ( 0.8%) 
+HDR ambient table      547/65536        2188/262144   ( 0.8%) 
+LDR leaf ambient       323/65536        9044/1835008  ( 0.5%) 
+HDR leaf ambient       547/65536       15316/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105671/0        ( 0.0%) 
+physics               [variable]       49639/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2589
+Writing d:\user profiles\rudy\cs maps\de_innvent.bsp
+8 seconds elapsed
