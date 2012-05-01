@@ -1,0 +1,6 @@
+Bem-vindo à Innvent!!!
+
+
+- Os terroristas (consultores) devem explodir o andar colocando a bomba na recepção ou acabando com os contra-terroristas.
+
+- Os contra-terroristas (desenvolvedores) vão tentar impedir, matando os terroristas ou desarmando sua bomba.
